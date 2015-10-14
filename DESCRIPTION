@@ -1,0 +1,22 @@
+Package: ecotoxicology
+Type: Package
+Title: Methods for Ecotoxicology
+Version: 1.0.1
+Encoding: UTF-8
+Authors@R: c(person(given = "Jose", family = "Gama", role = c("aut","cre","trl"),email = "rxprtgama@gmail.com"))
+Description: Implementation of the EPA's Ecological Exposure Research Division (EERD) tools (discontinued in 1999) for Probit and Trimmed Spearman-Karber Analysis.
+    Probit and Spearman-Karber methods from Finney's book "Probit analysis a statistical treatment of the sigmoid response curve" with options for most accurate results or identical results to the book.
+    Probit and all the tables from Finney's book (code-generated, not copied) with the generating functions included.
+    Control correction: Abbott, Schneider-Orelli, Henderson-Tilton, Sun-Shepard.
+    Toxicity scales: Horsfall-Barratt, Archer, Gauhl-Stover, Fullerton-Olsen, etc.
+License: GPL (>= 3)
+Depends: R (>= 2.10)
+Author: Jose Gama [aut, cre, trl]
+Maintainer: Jose Gama <rxprtgama@gmail.com>
+Repository: CRAN
+Repository/R-Forge/Project: ecotoxicology
+Repository/R-Forge/Revision: 4
+Repository/R-Forge/DateTimeStamp: 2015-10-14 09:20:55
+Date/Publication: 2015-10-14 12:25:39
+NeedsCompilation: no
+Packaged: 2015-10-14 09:25:24 UTC; rforge

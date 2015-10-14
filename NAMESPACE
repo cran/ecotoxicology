@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("graphics", "abline", "legend", "par", "plot")
+importFrom("stats", "approx", "coefficients", "dnorm", "lm", "pnorm",
+    "qchisq", "qnorm", "qt")
+
